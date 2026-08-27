@@ -46,6 +46,27 @@ class practice {
         */
         //=========================================
 
+        /** 3.4.1 
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please enter your score value between 0 - 100: ");
+        int score = input.nextInt();
+        System.out.println("Enter your pay: ");
+        double pay = input.nextInt();
+        double bonus = 0;
+
+        if(score > 90){
+            bonus = pay * .03;
+            pay = pay + bonus;
+        }
+        else{
+            bonus = pay * .01;
+            pay = pay + bonus;
+        }
+
+        System.out.println("Your Pay is: " + pay);
+        */
+        //===========================================
+
         
     }
 }
